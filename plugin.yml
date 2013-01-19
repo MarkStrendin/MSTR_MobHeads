@@ -1,0 +1,17 @@
+name: MSTR_MobHeads
+main: ca.strendin.MSTR_MobHeads.MSTR_MobHeads
+version: 0.1
+authors:
+  - Mark Strendin
+description: Mob head silliness
+permissions:
+  mstr_mobheads.sethead:
+   description: Able to set head data
+   default: op
+commands:
+  head:
+    aliases: [sethead]
+    description: Set the data for the mob head you are holding
+    usage: |
+           /<command> 
+             
